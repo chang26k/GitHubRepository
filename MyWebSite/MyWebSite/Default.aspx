@@ -17,23 +17,16 @@
     </section>
 </asp:Content>
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <h3>We suggest the following:</h3>
+    <h3>Weekly Task</h3>
     <ol class="round">
         <li class="one">
-            <h5>Getting Started</h5>
-            ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            <a href="http://go.microsoft.com/fwlink/?LinkId=245146">Learn more…</a>
-        </li>
+            <h5>Introductory to C#, GitHub and AppHarbor</h5>
+            This week lets learn the basics.&nbsp; C#, GitHub and AppHarbor will be the core around our weekly task.&nbsp; <a href="weekly/week1/week1.aspx"> Week  1 Assignment</a></li>
         <li class="two">
-            <h5>Add NuGet packages and jump-start your coding</h5>
-            NuGet makes it easy to install and update free libraries and tools.
-            <a href="http://go.microsoft.com/fwlink/?LinkId=245147">Learn more…</a>
-        </li>
+            <h5>Loops and OO design</h5>
+            More basic concepts.&nbsp; Week 2 Assignment</li>
         <li class="three">
-            <h5>Find Web Hosting</h5>
-            You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            <a href="http://go.microsoft.com/fwlink/?LinkId=245143">Learn more…</a>
-        </li>
+            <h5>Lets write our first API, WebService and WCF</h5>
+            API, WebServices and WCF are a must learn.&nbsp; So, lets write some simple examples. <a href="http://go.microsoft.com/fwlink/?LinkId=245143">Week 3 Assignment</a></li>
     </ol>
 </asp:Content>

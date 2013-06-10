@@ -197,6 +197,10 @@
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
     <Content Include="packages.config" />
+    <Content Include="Weekly\Week1\Romannumeral.aspx" />
+    <Content Include="Weekly\Week1\StringReverse.aspx" />
+    <Content Include="Weekly\Week1\ThreeWay.aspx" />
+    <Content Include="Weekly\Week1\Week1.aspx" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -293,6 +297,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="App_Code\StringReverse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -301,9 +306,40 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="Weekly\Week1\Romannumeral.aspx.cs">
+      <DependentUpon>Romannumeral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Weekly\Week1\Romannumeral.aspx.designer.cs">
+      <DependentUpon>Romannumeral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\RomanNumeral.cs" />
+    <Compile Include="Weekly\Week1\StringReverse.aspx.cs">
+      <DependentUpon>StringReverse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Weekly\Week1\StringReverse.aspx.designer.cs">
+      <DependentUpon>StringReverse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Weekly\Week1\ThreeWay.aspx.cs">
+      <DependentUpon>ThreeWay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Weekly\Week1\ThreeWay.aspx.designer.cs">
+      <DependentUpon>ThreeWay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Weekly\Week1\Week1.aspx.cs">
+      <DependentUpon>Week1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Weekly\Week1\Week1.aspx.designer.cs">
+      <DependentUpon>Week1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Weekly\Week2\" />
+    <Folder Include="Weekly\Week3\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />
